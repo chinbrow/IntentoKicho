@@ -1,11 +1,30 @@
 .stacked {
   font-size: small;
-  padding: 10px; }
+  font-family: 'Courier New', Courier, monospace; }
 
 .stacked {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.stacked {
+  border-radius: 25px; }
+
+body {
+  background: #e85a4f;
+  background: radial-gradient(circle, #e85a4f 42%, white 100%); }
+
+.stacked {
+  margin: auto;
   text-align: center;
-  margin: auto; }
+  padding: 50px; }
   .stacked input {
-    color: red; }
+    margin: 5px;
+    width: 370px; }
+  .stacked h3 {
+    color: white; }
 
 /*# sourceMappingURL=signUp.css.map */
