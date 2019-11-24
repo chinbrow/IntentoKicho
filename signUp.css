@@ -1,6 +1,6 @@
 .stacked {
   font-size: small;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .stacked {
   margin: 0;
@@ -26,5 +26,7 @@ body {
     width: 370px; }
   .stacked h3 {
     color: white; }
+  .stacked button {
+    margin-top: 10px; }
 
 /*# sourceMappingURL=signUp.css.map */
