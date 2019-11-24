@@ -1,0 +1,56 @@
+/*
+Error: Invalid CSS after "%": expected placeholder name, was " message"
+        on line 1 of signUp.scss
+
+1: % message {
+2:     font-size: small;
+3:     padding: 10px;
+4:     margin: auto;
+5: }
+6: 
+
+Backtrace:
+signUp.scss:1
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1097:in `expected'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1092:in `tok!'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/static_parser.rb:203:in `placeholder_selector'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/static_parser.rb:153:in `simple_selector_sequence'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/static_parser.rb:112:in `selector'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/static_parser.rb:86:in `selector_comma_sequence'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1075:in `expr!'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:425:in `visit_rule'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:412:in `run'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/bin/sass:13:in `<top (required)>'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
+/Users/luisgonzalez/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"%\": expected placeholder name, was \" message\"\A         on line 1 of signUp.scss\A \A 1: % message {\A 2:     font-size: small;\A 3:     padding: 10px;\A 4:     margin: auto;\A 5: }\A 6: "; }
